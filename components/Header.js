@@ -4,7 +4,7 @@ export default function Header()
 {
     return(
         <header>
-        <img src="/portfolio/public/img/logo.png" alt="logo" width={60} height={60}/>
+        <img src="/img/logo.png" alt="logo" width={60} height={60}/>
       
       <nav>
         <a href="#about">About</a>
