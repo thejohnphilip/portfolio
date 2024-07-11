@@ -7,7 +7,7 @@ export default function Header()
         <img src="/img/logo.png" alt="logo" width={60} height={60}/>
       
       <nav>
-        <a href="#about">Abo</a>
+        <a href="#about">Ab</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
       </nav>
