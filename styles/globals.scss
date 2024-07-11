@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* 
+{
+  margin:0;
+  
+  box-sizing: border-box;
+}
+
+body
+{
+  background-color : #34353a;
+  color:white;
+  font-family: 'Roboto';
+  overflow-x:hidden;
+  
+}
+
+.center
+{
+  max-width: 780px;
+  margin:0 auto;
+}
+h2{
+  font-family: 'Roboto',serif;
+  font-size:2rem;
+  font-weight:200;
+  margin-bottom:20px;
+  padding-left:50px;
+}
+$gold: #FAC86B;
+
+img{
+  max-width:100%;
+}

@@ -1,0 +1,52 @@
+header
+{
+    display: flex;
+    max-width:980px;
+    margin:0 auto;
+    align-items: center;
+    padding : 20px;
+}
+
+header nav
+{
+ flex-grow: 1;
+ text-align: center;
+ 
+}
+  
+header nav a
+{
+    color:rgba(255,255,255,0.75);
+    padding:10px 10px;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color:white;
+}
+
+header div.social a{
+    display:inline-block;
+    padding: 10px;
+
+    
+}
+
+header div.social a svg
+{
+    height:25px;
+    display: inline-block;
+    margin: 1 10px ;
+    fill:rgba(255,255,255,0.75);
+}
+
+header div.social a svg:hover{
+    fill:white;
+}
+
+header Image
+{
+    height:80px;
+    border-radius: 8px;
+    
+}

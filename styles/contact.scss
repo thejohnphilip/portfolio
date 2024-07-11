@@ -1,0 +1,44 @@
+section#contact
+{
+    border-top:2px solid $gold;
+    margin-top:50px;
+    text-align: center;
+    position:relative;
+    padding:100px;
+    h2
+    {
+        position:relative;
+        display: inline-block;
+        top:-25px;
+        padding:0 20px;
+        background-color : #34353a;
+        position:absolute;
+        left:50%;
+        width:350px;
+        margin-left: -175px;
+    }
+
+    div.contact-box
+    {
+        background-color: #31333B;
+        display: inline-flex;
+        width:280px;
+        margin:10px;
+        align-items:center;
+        padding:10px;
+        border-radius:10px;
+        justify-content:center;
+    svg
+    {
+        height:30px;
+        fill:#fff;
+        margin-right: 20px;
+    }
+    a{
+        color:$gold;
+        text-decoration:none;
+        font-family: 'Roboto';
+        font-weight: 300;
+    }
+    }
+}
