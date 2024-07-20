@@ -1,10 +1,12 @@
 section#contact
 {
     border-top:2px solid $gold;
-    margin-top:50px;
+    margin-top:5px;
     text-align: center;
     position:relative;
-    padding:100px;
+    padding:100px 0  0;
+    background-color: #34353a;
+    
     h2
     {
         position:relative;
@@ -40,5 +42,30 @@ section#contact
         font-family: 'Roboto';
         font-weight: 300;
     }
+    a:hover{
+        color:white;
     }
+}
+
+
+    div.credits
+    {
+    font-family: 'Roboto',serif;
+    font-size:.7rem;
+    font-weight:200;
+    display: flex;
+    color: grey;
+    padding-top: 10px;
+   
+    a
+    {
+        color: $gold;
+    }
+    
+    a:hover{
+        color:white;
+    }
+    }
+    
+    
 }

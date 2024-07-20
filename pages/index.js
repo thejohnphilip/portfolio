@@ -10,6 +10,8 @@ import Portfolio from "@/components/Portfolio";
 import Contact from "@/components/Contact";
 
 
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -26,13 +28,27 @@ export default function Home() {
       });
   },[]);
   return (
+    
     <main>
+      
+      
+      
+      <section className="page">
       <Header/>
       <Intro/>
+      </section>
+      <section className="page">
       <About/>
+      </section>
+      <section className="page">
       <Skills/>
+      </section>
+      <section className="page">
       <Portfolio/>
+      </section>
+      <section className="page">
       <Contact/>
+      </section>
     </main>
   )
 }

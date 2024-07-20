@@ -13,8 +13,18 @@ export default function Contact()
         <a href="tel:+17058084662">+1-705-808-4662</a>
         </div>
         </div>
-        
+       
+        <div className="credits">
+            <p>Image credits:
+            <br/>Portfolio image #1:<a href ="https://unsplash.com/@chrisliverani">@Chris Liverani</a>
+            / Portfolio image #2:<a href="https://unsplash.com/@samule">@Samuel Sun</a>
+            / Portfolio image #3:<a href="https://unsplash.com/@lazycreekimages">@Michail Dziedzic</a>
+            / Portfolio image #4: <a href="https://unsplash.com/@jankolar">@jankolar</a>
+            </p>
+
+        </div>
         
     </section>
+    
     )
 }

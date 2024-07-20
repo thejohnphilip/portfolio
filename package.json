@@ -2,20 +2,23 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "main":"index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export":"next export",
+    "export": "next export",
     "lint": "next lint"
   },
   "dependencies": {
+    "fullpage.js": "^4.0.25",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-fullpage": "^0.1.19",
     "sass": "^1.77.6"
-  
   },
   "devDependencies": {
     "eslint": "^8",

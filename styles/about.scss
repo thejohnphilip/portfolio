@@ -1,17 +1,17 @@
 section#about{
-    background-color: #31333B; 
-    box-shadow: inset 0 10px 10px rgba(0,0,0,.2);  
+   
+     
     padding: 100px 0;
-    opacity: 0;
+
     transition:  opacity 2s linear;
+    height: 100vh;
+    width: 100%;
+    background-color: #34353a;
+    
     
 }
 
-section#about.visible
-{
- opacity: 1;
 
-}
 
 section#about h2
 {
@@ -23,7 +23,8 @@ section#about p{
     line-height: 1.6rem;
     font-weight:300;
     font-size: 1rem;
-    line-height:2.3rem
+    line-height:2.3rem;
+    
     
     
 }
@@ -39,3 +40,4 @@ section#about p::before{
     position:relative;
     top:20px;
 }
+
